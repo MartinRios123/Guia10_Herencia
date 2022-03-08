@@ -9,10 +9,10 @@ mostrar luego un mensaje por pantalla informando de que se alimenta.
 package guia10_herencia_eje01;
 
 public abstract class Animal {
-    private String nombre;
-    private String alimento;
-    private int edad;
-    private String raza;
+    protected String nombre;
+    protected String alimento;
+    protected int edad;
+    protected String raza;
 
     public Animal() {
     }
